@@ -11,6 +11,12 @@ const commands = [
 
 const rest = new REST({ version: '10' }).setToken(token);
 
+// remove commands
+rest.delete(Routes.applicationGuildCommand(clientId, guildId, '1008099127411879999'))
+	.then(() => console.log('Successfully deleted guild command'))
+	.catch(console.error);
+
+// add commands
 rest.put(Routes.applicationGuildCommands(clientId, guildId), { body: commands })
 	.then(() => console.log('Successfully registered application commands.'))
 	.catch(console.error);
