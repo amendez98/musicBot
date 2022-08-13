@@ -1,0 +1,27 @@
+{
+  "name": "musicbot",
+  "version": "1.0.0",
+  "description": "Discord.js bot that plays requested music",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amendez98/musicBot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amendez98/musicBot/issues"
+  },
+  "homepage": "https://github.com/amendez98/musicBot#readme",
+  "dependencies": {
+    "@discordjs/rest": "^1.0.1",
+    "discord.js": "^14.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.21.0"
+  }
+}
